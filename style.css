@@ -1,0 +1,40 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.maingrid {
+
+    display: grid;
+    grid-template-areas: "box1 box2"
+                         "box3 box4"
+}
+
+div {
+
+    border: 1px solid black;
+
+}
+
+.box1 {
+    grid-area: box1;
+}
+
+.box2 {
+    grid-area: box2;
+}
+
+.box3 {
+    grid-area: box3;
+}
+
+.box4 {
+    grid-area: box4;
+}
+
+.box1 {
+    grid-area: box4;
+}
+
+@media and screen
