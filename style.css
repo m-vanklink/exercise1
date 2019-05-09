@@ -37,7 +37,7 @@ div {
     grid-area: box4;
 }
 
-@media only screen and (max=width: 500px) {
+@media only screen and (max-width: 500px) {
     
     .maingrid {
 
